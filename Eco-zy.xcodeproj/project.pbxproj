@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDE7E6BA26B9EF09006D175E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE7E6B926B9EF09006D175E /* AppDelegate.swift */; };
+		BDE7E6BC26B9EF09006D175E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE7E6BB26B9EF09006D175E /* SceneDelegate.swift */; };
+		BDE7E6BE26B9EF09006D175E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE7E6BD26B9EF09006D175E /* ViewController.swift */; };
+		BDE7E6C126B9EF09006D175E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDE7E6BF26B9EF09006D175E /* Main.storyboard */; };
+		BDE7E6C426B9EF09006D175E /* Eco_zy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDE7E6C226B9EF09006D175E /* Eco_zy.xcdatamodeld */; };
+		BDE7E6C626B9EF0A006D175E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDE7E6C526B9EF0A006D175E /* Assets.xcassets */; };
+		BDE7E6C926B9EF0A006D175E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDE7E6C726B9EF0A006D175E /* LaunchScreen.storyboard */; };
+		BDE7E6D426B9EF0A006D175E /* Eco_zyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE7E6D326B9EF0A006D175E /* Eco_zyTests.swift */; };
+		BDE7E6DF26B9EF0A006D175E /* Eco_zyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE7E6DE26B9EF0A006D175E /* Eco_zyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDE7E6D026B9EF0A006D175E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDE7E6AE26B9EF09006D175E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDE7E6B526B9EF09006D175E;
+			remoteInfo = "Eco-zy";
+		};
+		BDE7E6DB26B9EF0A006D175E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDE7E6AE26B9EF09006D175E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDE7E6B526B9EF09006D175E;
+			remoteInfo = "Eco-zy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDE7E6B626B9EF09006D175E /* Eco-zy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eco-zy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDE7E6B926B9EF09006D175E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDE7E6BB26B9EF09006D175E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BDE7E6BD26B9EF09006D175E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDE7E6C026B9EF09006D175E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDE7E6C326B9EF09006D175E /* Eco_zy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Eco_zy.xcdatamodel; sourceTree = "<group>"; };
+		BDE7E6C526B9EF0A006D175E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDE7E6C826B9EF0A006D175E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDE7E6CA26B9EF0A006D175E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDE7E6CF26B9EF0A006D175E /* Eco-zyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eco-zyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDE7E6D326B9EF0A006D175E /* Eco_zyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eco_zyTests.swift; sourceTree = "<group>"; };
+		BDE7E6D526B9EF0A006D175E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDE7E6DA26B9EF0A006D175E /* Eco-zyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eco-zyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDE7E6DE26B9EF0A006D175E /* Eco_zyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eco_zyUITests.swift; sourceTree = "<group>"; };
+		BDE7E6E026B9EF0A006D175E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDE7E6B326B9EF09006D175E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE7E6CC26B9EF0A006D175E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE7E6D726B9EF0A006D175E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDE7E6AD26B9EF09006D175E = {
+			isa = PBXGroup;
+			children = (
+				BDE7E6B826B9EF09006D175E /* Eco-zy */,
+				BDE7E6D226B9EF0A006D175E /* Eco-zyTests */,
+				BDE7E6DD26B9EF0A006D175E /* Eco-zyUITests */,
+				BDE7E6B726B9EF09006D175E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDE7E6B726B9EF09006D175E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDE7E6B626B9EF09006D175E /* Eco-zy.app */,
+				BDE7E6CF26B9EF0A006D175E /* Eco-zyTests.xctest */,
+				BDE7E6DA26B9EF0A006D175E /* Eco-zyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDE7E6B826B9EF09006D175E /* Eco-zy */ = {
+			isa = PBXGroup;
+			children = (
+				BDE7E6B926B9EF09006D175E /* AppDelegate.swift */,
+				BDE7E6BB26B9EF09006D175E /* SceneDelegate.swift */,
+				BDE7E6BD26B9EF09006D175E /* ViewController.swift */,
+				BDE7E6BF26B9EF09006D175E /* Main.storyboard */,
+				BDE7E6C526B9EF0A006D175E /* Assets.xcassets */,
+				BDE7E6C726B9EF0A006D175E /* LaunchScreen.storyboard */,
+				BDE7E6CA26B9EF0A006D175E /* Info.plist */,
+				BDE7E6C226B9EF09006D175E /* Eco_zy.xcdatamodeld */,
+			);
+			path = "Eco-zy";
+			sourceTree = "<group>";
+		};
+		BDE7E6D226B9EF0A006D175E /* Eco-zyTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDE7E6D326B9EF0A006D175E /* Eco_zyTests.swift */,
+				BDE7E6D526B9EF0A006D175E /* Info.plist */,
+			);
+			path = "Eco-zyTests";
+			sourceTree = "<group>";
+		};
+		BDE7E6DD26B9EF0A006D175E /* Eco-zyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDE7E6DE26B9EF0A006D175E /* Eco_zyUITests.swift */,
+				BDE7E6E026B9EF0A006D175E /* Info.plist */,
+			);
+			path = "Eco-zyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDE7E6B526B9EF09006D175E /* Eco-zy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDE7E6E326B9EF0A006D175E /* Build configuration list for PBXNativeTarget "Eco-zy" */;
+			buildPhases = (
+				BDE7E6B226B9EF09006D175E /* Sources */,
+				BDE7E6B326B9EF09006D175E /* Frameworks */,
+				BDE7E6B426B9EF09006D175E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Eco-zy";
+			productName = "Eco-zy";
+			productReference = BDE7E6B626B9EF09006D175E /* Eco-zy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDE7E6CE26B9EF0A006D175E /* Eco-zyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDE7E6E626B9EF0A006D175E /* Build configuration list for PBXNativeTarget "Eco-zyTests" */;
+			buildPhases = (
+				BDE7E6CB26B9EF0A006D175E /* Sources */,
+				BDE7E6CC26B9EF0A006D175E /* Frameworks */,
+				BDE7E6CD26B9EF0A006D175E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDE7E6D126B9EF0A006D175E /* PBXTargetDependency */,
+			);
+			name = "Eco-zyTests";
+			productName = "Eco-zyTests";
+			productReference = BDE7E6CF26B9EF0A006D175E /* Eco-zyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDE7E6D926B9EF0A006D175E /* Eco-zyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDE7E6E926B9EF0A006D175E /* Build configuration list for PBXNativeTarget "Eco-zyUITests" */;
+			buildPhases = (
+				BDE7E6D626B9EF0A006D175E /* Sources */,
+				BDE7E6D726B9EF0A006D175E /* Frameworks */,
+				BDE7E6D826B9EF0A006D175E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDE7E6DC26B9EF0A006D175E /* PBXTargetDependency */,
+			);
+			name = "Eco-zyUITests";
+			productName = "Eco-zyUITests";
+			productReference = BDE7E6DA26B9EF0A006D175E /* Eco-zyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDE7E6AE26B9EF09006D175E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					BDE7E6B526B9EF09006D175E = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					BDE7E6CE26B9EF0A006D175E = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = BDE7E6B526B9EF09006D175E;
+					};
+					BDE7E6D926B9EF0A006D175E = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = BDE7E6B526B9EF09006D175E;
+					};
+				};
+			};
+			buildConfigurationList = BDE7E6B126B9EF09006D175E /* Build configuration list for PBXProject "Eco-zy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDE7E6AD26B9EF09006D175E;
+			productRefGroup = BDE7E6B726B9EF09006D175E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDE7E6B526B9EF09006D175E /* Eco-zy */,
+				BDE7E6CE26B9EF0A006D175E /* Eco-zyTests */,
+				BDE7E6D926B9EF0A006D175E /* Eco-zyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDE7E6B426B9EF09006D175E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE7E6C926B9EF0A006D175E /* LaunchScreen.storyboard in Resources */,
+				BDE7E6C626B9EF0A006D175E /* Assets.xcassets in Resources */,
+				BDE7E6C126B9EF09006D175E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE7E6CD26B9EF0A006D175E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE7E6D826B9EF0A006D175E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDE7E6B226B9EF09006D175E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE7E6C426B9EF09006D175E /* Eco_zy.xcdatamodeld in Sources */,
+				BDE7E6BE26B9EF09006D175E /* ViewController.swift in Sources */,
+				BDE7E6BA26B9EF09006D175E /* AppDelegate.swift in Sources */,
+				BDE7E6BC26B9EF09006D175E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE7E6CB26B9EF0A006D175E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE7E6D426B9EF0A006D175E /* Eco_zyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE7E6D626B9EF0A006D175E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE7E6DF26B9EF0A006D175E /* Eco_zyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDE7E6D126B9EF0A006D175E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDE7E6B526B9EF09006D175E /* Eco-zy */;
+			targetProxy = BDE7E6D026B9EF0A006D175E /* PBXContainerItemProxy */;
+		};
+		BDE7E6DC26B9EF0A006D175E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDE7E6B526B9EF09006D175E /* Eco-zy */;
+			targetProxy = BDE7E6DB26B9EF0A006D175E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDE7E6BF26B9EF09006D175E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDE7E6C026B9EF09006D175E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDE7E6C726B9EF0A006D175E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDE7E6C826B9EF0A006D175E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDE7E6E126B9EF0A006D175E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDE7E6E226B9EF0A006D175E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDE7E6E426B9EF0A006D175E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Eco-zy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AudreyTeam.Eco-zy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDE7E6E526B9EF0A006D175E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Eco-zy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AudreyTeam.Eco-zy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDE7E6E726B9EF0A006D175E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Eco-zyTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AudreyTeam.Eco-zyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eco-zy.app/Eco-zy";
+			};
+			name = Debug;
+		};
+		BDE7E6E826B9EF0A006D175E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Eco-zyTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AudreyTeam.Eco-zyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eco-zy.app/Eco-zy";
+			};
+			name = Release;
+		};
+		BDE7E6EA26B9EF0A006D175E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Eco-zyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AudreyTeam.Eco-zyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Eco-zy";
+			};
+			name = Debug;
+		};
+		BDE7E6EB26B9EF0A006D175E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Eco-zyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AudreyTeam.Eco-zyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Eco-zy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDE7E6B126B9EF09006D175E /* Build configuration list for PBXProject "Eco-zy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE7E6E126B9EF0A006D175E /* Debug */,
+				BDE7E6E226B9EF0A006D175E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDE7E6E326B9EF0A006D175E /* Build configuration list for PBXNativeTarget "Eco-zy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE7E6E426B9EF0A006D175E /* Debug */,
+				BDE7E6E526B9EF0A006D175E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDE7E6E626B9EF0A006D175E /* Build configuration list for PBXNativeTarget "Eco-zyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE7E6E726B9EF0A006D175E /* Debug */,
+				BDE7E6E826B9EF0A006D175E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDE7E6E926B9EF0A006D175E /* Build configuration list for PBXNativeTarget "Eco-zyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE7E6EA26B9EF0A006D175E /* Debug */,
+				BDE7E6EB26B9EF0A006D175E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDE7E6C226B9EF09006D175E /* Eco_zy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDE7E6C326B9EF09006D175E /* Eco_zy.xcdatamodel */,
+			);
+			currentVersion = BDE7E6C326B9EF09006D175E /* Eco_zy.xcdatamodel */;
+			path = Eco_zy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BDE7E6AE26B9EF09006D175E /* Project object */;
+}
