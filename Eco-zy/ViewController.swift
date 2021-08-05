@@ -9,14 +9,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var homepageTitle: UILabel!
-    @IBOutlet weak var aboutUsButton: UIButton!
+//    @IBOutlet weak var homepageTitle: UILabel!
+//    @IBOutlet weak var aboutUsButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        homepageTitle.layer.cornerRadius = 15
-        aboutUsButton.layer.cornerRadius = 15
+//        homepageTitle.layer.cornerRadius = 15
+//        aboutUsButton.layer.cornerRadius = 15
     }
 }
 

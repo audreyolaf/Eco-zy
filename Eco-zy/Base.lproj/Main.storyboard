@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="i7c-fb-4WM">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -8,68 +8,54 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Title-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Home-->
+        <scene sceneID="2kZ-cu-0Id">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Eco_zy" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController id="vxc-b6-qaD" customClass="ViewController" customModule="Eco_zy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bxw-l8-R1L">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="welcome to Eco-zy!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MZb-Oz-XgS">
-                                <rect key="frame" x="97" y="168" width="220" height="116"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="welcome to Eco-zy!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rDS-Tq-06Y">
+                                <rect key="frame" x="97" y="195" width="220" height="116"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.94509803921568625" green="0.72549019607843135" blue="0.47058823529411764" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.94509803920000002" green="0.72549019609999998" blue="0.47058823529999999" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Georgia-BoldItalic" family="Georgia" pointSize="32"/>
-                                <color key="textColor" red="0.59215686274509804" green="0.31764705882352939" blue="0.15686274509803921" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" red="0.59215686270000001" green="0.31764705879999999" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zuz-ma-A3O">
-                                <rect key="frame" x="150" y="385" width="114" height="47"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uTh-Hl-w9h">
+                                <rect key="frame" x="150" y="402" width="114" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.75294117647058822" green="0.80784313725490198" blue="0.53725490196078429" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.75294117650000003" green="0.80784313730000001" blue="0.53725490200000003" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
                                 <state key="normal" title="About Us">
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="kGA-d1-zu8" kind="show" id="5NW-jq-nVw"/>
+                                </connections>
                             </button>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aWS-hC-fhX">
-                                <rect key="frame" x="0.0" y="805" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <items>
-                                    <barButtonItem title="MH" image="passion" id="s1W-gX-G4w">
-                                        <connections>
-                                            <segue destination="MsQ-81-4bc" kind="show" id="iJe-Zf-OeO"/>
-                                        </connections>
-                                    </barButtonItem>
-                                    <barButtonItem title="Outdoor Activities" image="mountains" id="ygV-wh-GRm"/>
-                                    <barButtonItem title="Climate To-Do" image="leaf" id="YSl-V4-NYj"/>
-                                </items>
-                            </toolbar>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.99607843137254903" green="0.96470588235294119" blue="0.86274509803921573" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="5Hc-Ba-lQN"/>
+                        <color key="backgroundColor" red="0.99607843139999996" green="0.96470588239999999" blue="0.86274509799999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="Dxg-xI-gJN"/>
-                    <connections>
-                        <outlet property="aboutUsButton" destination="zuz-ma-A3O" id="Mdb-mF-Q87"/>
-                        <outlet property="homepageTitle" destination="MZb-Oz-XgS" id="ttH-cA-1ju"/>
-                    </connections>
+                    <navigationItem key="navigationItem" title="Home" id="pbM-Zj-5Oz"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vq6-Y3-tM3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-407.24637681159425" y="-20.089285714285712"/>
+            <point key="canvasLocation" x="-2278" y="115"/>
         </scene>
-        <!--Mental Health View Controller-->
+        <!--Helplines-->
         <scene sceneID="o4i-PM-7L1">
             <objects>
                 <viewController id="MsQ-81-4bc" customClass="MentalHealthViewController" customModule="Eco_zy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bDd-By-Eg9">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reminder: I am an advocate for my mental and emotional well-being." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nf0-bo-oil">
-                                <rect key="frame" x="40" y="54" width="334" height="122"/>
+                                <rect key="frame" x="40" y="132" width="334" height="122"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.75294117650000003" green="0.80784313730000001" blue="0.53725490200000003" alpha="0.66000000000000003" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="0.59215686274509804" green="0.31764705882352939" blue="0.16470588235294117" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -77,22 +63,19 @@
                                 <color key="textColor" red="0.59215686270000001" green="0.31764705879999999" blue="0.1647058824" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mental health resources &amp; hotlines" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wkn-PJ-Bid">
-                                <rect key="frame" x="45" y="184" width="324" height="126"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mental health Resources &amp; Hotlines" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wkn-PJ-Bid">
+                                <rect key="frame" x="20" y="241" width="374" height="126"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia-BoldItalic" family="Georgia" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="24"/>
                                 <color key="textColor" red="0.88627450980392153" green="0.47843137254901957" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hcm-v3-089">
                                 <rect key="frame" x="0.0" y="818" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="Title" id="KJO-Mv-xpe"/>
-                                </items>
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Qu-wT-Gn8">
-                                <rect key="frame" x="164" y="504" width="87" height="33"/>
+                                <rect key="frame" x="164" y="514" width="87" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.94509803920000002" green="0.72549019609999998" blue="0.47058823529999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="18"/>
@@ -103,27 +86,27 @@
                                     <action selector="didTapCrisis:" destination="MsQ-81-4bc" eventType="touchUpInside" id="kvs-ER-e6t"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SAMHSA'S National Helpline" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aDV-mK-l5T">
-                                <rect key="frame" x="10" y="290" width="394" height="111"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SAMHSA'S National Helpline" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aDV-mK-l5T">
+                                <rect key="frame" x="20" y="341" width="374" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="23"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Crisis Text Line" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O6I-tu-7ZO">
-                                <rect key="frame" x="103" y="445" width="208" height="42"/>
+                                <rect key="frame" x="20" y="464" width="374" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="24"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NAMI Helpline" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ddu-KD-1hs">
-                                <rect key="frame" x="114" y="569" width="187" height="28"/>
+                                <rect key="frame" x="20" y="577" width="374" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TAo-cu-l6y">
-                                <rect key="frame" x="164" y="381" width="87" height="33"/>
+                                <rect key="frame" x="164" y="403" width="87" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.94509803920000002" green="0.72549019609999998" blue="0.47058823529999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="18"/>
@@ -135,7 +118,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r9w-SB-tPY">
-                                <rect key="frame" x="164" y="624" width="87" height="33"/>
+                                <rect key="frame" x="164" y="620" width="87" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.94509803920000002" green="0.72549019609999998" blue="0.47058823529999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="18"/>
@@ -146,17 +129,128 @@
                                     <action selector="didTapNami:" destination="MsQ-81-4bc" eventType="touchUpInside" id="TzF-G5-A51"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bz4-Jv-wwG">
+                                <rect key="frame" x="20" y="711" width="374" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="24"/>
+                                <state key="normal" title="Click to Read More">
+                                    <color key="titleColor" red="0.8862745098" green="0.47843137250000001" blue="0.35294117650000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="WV6-r1-mFu" kind="show" id="tYX-ga-Wru"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Hr6-BD-vQZ"/>
                         <color key="backgroundColor" red="0.99607843139999996" green="0.96470588239999999" blue="0.86274509799999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
-                    <navigationItem key="navigationItem" id="hoA-Bc-n47"/>
+                    <tabBarItem key="tabBarItem" title="Resources" image="heart" catalog="system" id="Lg6-7T-uhN"/>
+                    <navigationItem key="navigationItem" title="Helplines" id="hoA-Bc-n47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l8u-Al-1XS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-407.24637681159425" y="654.91071428571422"/>
+            <point key="canvasLocation" x="-339" y="115"/>
         </scene>
-        <!--View Controller-->
+        <!--Articles-->
+        <scene sceneID="O2h-QR-OdI">
+            <objects>
+                <viewController id="WV6-r1-mFu" customClass="ArticlesViewController" customModule="Eco_zy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EEx-53-I95">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How the Coronavirus Pandemic Could Exacerbate Eco-Anxiety" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yZU-QT-uc7">
+                                <rect key="frame" x="20" y="111" width="374" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="24"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How to cope with eco anxiety" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Hr-PZ-iEC">
+                                <rect key="frame" x="20" y="338" width="374" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="24"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Resources Library" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d2b-fC-tu2">
+                                <rect key="frame" x="20" y="467" width="374" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="24"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Young People and Eco-Anxiety" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2jZ-0m-Oj3">
+                                <rect key="frame" x="19" y="616" width="377" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="24"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VBR-8M-Mbs">
+                                <rect key="frame" x="164" y="397" width="87" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.94509803920000002" green="0.72549019609999998" blue="0.47058823529999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="18"/>
+                                <state key="normal" title="Read">
+                                    <color key="titleColor" red="0.59215686270000001" green="0.31764705879999999" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTap2:" destination="g7W-F9-bdG" eventType="touchUpInside" id="apt-en-3hd"/>
+                                    <action selector="didTap2:" destination="WV6-r1-mFu" eventType="touchUpInside" id="ioY-SC-cSV"/>
+                                    <action selector="didTapSamhsa:" destination="MsQ-81-4bc" eventType="touchUpInside" id="Dp2-g1-jDy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3zy-M6-kmJ">
+                                <rect key="frame" x="164" y="533" width="87" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.94509803920000002" green="0.72549019609999998" blue="0.47058823529999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="18"/>
+                                <state key="normal" title="Read">
+                                    <color key="titleColor" red="0.59215686270000001" green="0.31764705879999999" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTap3:" destination="g7W-F9-bdG" eventType="touchUpInside" id="3GY-ea-5Bv"/>
+                                    <action selector="didTap3:" destination="WV6-r1-mFu" eventType="touchUpInside" id="8Ql-6y-C0Z"/>
+                                    <action selector="didTapSamhsa:" destination="MsQ-81-4bc" eventType="touchUpInside" id="mHH-q7-NAB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aK7-aZ-xAX">
+                                <rect key="frame" x="164" y="709" width="87" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.94509803920000002" green="0.72549019609999998" blue="0.47058823529999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="18"/>
+                                <state key="normal" title="Read">
+                                    <color key="titleColor" red="0.59215686270000001" green="0.31764705879999999" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTap4:" destination="g7W-F9-bdG" eventType="touchUpInside" id="6UU-x1-3NG"/>
+                                    <action selector="didTap4:" destination="WV6-r1-mFu" eventType="touchUpInside" id="Ik2-H9-VIh"/>
+                                    <action selector="didTapSamhsa:" destination="MsQ-81-4bc" eventType="touchUpInside" id="Kf1-Md-XeK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iu3-hF-Vq6">
+                                <rect key="frame" x="164" y="237" width="87" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.94509803920000002" green="0.72549019609999998" blue="0.47058823529999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="18"/>
+                                <state key="normal" title="Read">
+                                    <color key="titleColor" red="0.59215686270000001" green="0.31764705879999999" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTap1:" destination="WV6-r1-mFu" eventType="touchUpInside" id="e1l-g0-yJ0"/>
+                                    <action selector="didTap1:" destination="g7W-F9-bdG" eventType="touchUpInside" id="y6y-h8-BG2"/>
+                                    <action selector="didTapSamhsa:" destination="MsQ-81-4bc" eventType="touchUpInside" id="g6X-oW-QrH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="TSy-tt-1qG"/>
+                        <color key="backgroundColor" red="0.99607843139999996" green="0.96470588239999999" blue="0.86274509799999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Articles" id="CJO-Dm-UoF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o0b-KH-XEX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="g7W-F9-bdG" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="574" y="115"/>
+        </scene>
+        <!--Activities-->
         <scene sceneID="Ayz-w2-ft7">
             <objects>
                 <viewController id="bcB-8h-u5x" sceneMemberID="viewController">
@@ -303,13 +397,14 @@
                         <viewLayoutGuide key="safeArea" id="ghR-NN-4WB"/>
                         <color key="backgroundColor" red="0.99607843139999996" green="0.96470588239999999" blue="0.86274509799999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Activities" image="tray" catalog="system" id="Lwp-wq-fyE"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C3m-uL-D8g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="7wj-9I-Ihb" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="289.85507246376812" y="649.55357142857144"/>
+            <point key="canvasLocation" x="1067" y="-627"/>
         </scene>
-        <!--View Controller-->
+        <!--About Us-->
         <scene sceneID="zJb-mN-d6n">
             <objects>
                 <viewController id="kGA-d1-zu8" sceneMemberID="viewController">
@@ -317,13 +412,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NS6-dG-wvp">
-                                <rect key="frame" x="0.0" y="818" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="Title" id="GWL-PJ-MBe"/>
-                                </items>
-                            </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Us" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EOf-fW-kr2">
                                 <rect key="frame" x="136" y="104" width="143" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -414,12 +502,13 @@
                         <color key="backgroundColor" red="0.99607843139999996" green="0.96470588239999999" blue="0.86274509799999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" red="0.69019607843137254" green="0.80784313725490198" blue="0.53725490196078429" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" title="About Us" id="ibu-DO-FF6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mMV-1F-CFZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="289.85507246376812" y="-20.089285714285712"/>
+            <point key="canvasLocation" x="-1433" y="115"/>
         </scene>
-        <!--View Controller-->
+        <!--To-Do-->
         <scene sceneID="Qeg-mD-vDR">
             <objects>
                 <viewController id="1eK-Df-sGc" sceneMemberID="viewController">
@@ -494,22 +583,86 @@
                         <color key="backgroundColor" red="0.99607843139999996" green="0.96470588239999999" blue="0.86274509799999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" red="0.9905610681" green="0.71644228700000001" blue="0.39729210729999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="To-Do" image="arrow.up.bin" catalog="system" id="JeC-t1-kk4"/>
+                    <navigationItem key="navigationItem" id="RHc-hg-SFM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Wk-aL-BUg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="992.75362318840587" y="649.55357142857144"/>
+            <point key="canvasLocation" x="1916" y="-627"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="NWl-b6-b4H">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="i7c-fb-4WM" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="lV6-x0-6XR"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nc2-94-vHd">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="nHC-at-iXh" kind="relationship" relationship="viewControllers" id="jVC-wY-zZ4"/>
+                        <segue destination="kSn-vm-bMR" kind="relationship" relationship="viewControllers" id="d4u-71-Gel"/>
+                        <segue destination="bcB-8h-u5x" kind="relationship" relationship="viewControllers" id="odl-wY-tzi"/>
+                        <segue destination="1eK-Df-sGc" kind="relationship" relationship="viewControllers" id="BBa-x1-1uC"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FEg-AP-0DI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-338" y="-1514"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="Ee4-VT-22X">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nHC-at-iXh" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="pencil.and.outline" catalog="system" id="J3t-Ah-g5V"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="4Gq-qA-9fN"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6vk-r7-g7Y">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vxc-b6-qaD" kind="relationship" relationship="rootViewController" id="fcn-Bv-4Jf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X7q-ww-ALD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1780" y="-627"/>
+        </scene>
+        <!--Resources-->
+        <scene sceneID="Qcd-8f-nYu">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kSn-vm-bMR" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Resources" image="heart.circle" catalog="system" id="up2-5f-Fdu"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="f4l-Cf-3m0">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="MsQ-81-4bc" kind="relationship" relationship="rootViewController" id="9Vu-ry-INp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AaF-Pf-M9B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="17" y="-627"/>
         </scene>
     </scenes>
     <resources>
+        <image name="arrow.up.bin" catalog="system" width="128" height="93"/>
         <image name="checkmark.circle" catalog="system" width="128" height="121"/>
         <image name="circle.fill" catalog="system" width="128" height="121"/>
         <image name="delete" width="512" height="512"/>
-        <image name="leaf" width="512" height="512"/>
+        <image name="heart" catalog="system" width="128" height="109"/>
+        <image name="heart.circle" catalog="system" width="128" height="121"/>
         <image name="lunch-box" width="512" height="512"/>
-        <image name="mountains" width="512" height="512"/>
-        <image name="passion" width="512" height="512"/>
+        <image name="pencil.and.outline" catalog="system" width="128" height="128"/>
         <image name="plus.circle" catalog="system" width="128" height="121"/>
         <image name="sprout" width="512" height="512"/>
+        <image name="tray" catalog="system" width="128" height="88"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
