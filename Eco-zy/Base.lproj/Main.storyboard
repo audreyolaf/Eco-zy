@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -342,43 +343,93 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-ok-24" translatesAutoresizingMaskIntoConstraints="NO" id="2XD-Dk-74w">
-                                <rect key="frame" x="60" y="340" width="25" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Enp-Cp-VcE">
+                                <rect key="frame" x="57" y="342" width="27" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.8913510255" green="0.58326122219999998" blue="0.36272293929999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-ok-24" translatesAutoresizingMaskIntoConstraints="NO" id="vkV-AD-DUp">
-                                <rect key="frame" x="60" y="370" width="25" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal">
+                                    <imageReference key="image" image="icons8-ok-24" symbolScale="large"/>
+                                </state>
+                                <connections>
+                                    <action selector="didCheckTap:" destination="bcB-8h-u5x" eventType="touchUpInside" id="7yn-bM-ZGE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3O-IQ-IiT">
+                                <rect key="frame" x="57" y="372" width="27" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.8913510255" green="0.58326122219999998" blue="0.36272293929999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-ok-24" translatesAutoresizingMaskIntoConstraints="NO" id="SGB-A8-iHN">
-                                <rect key="frame" x="60" y="466" width="25" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal">
+                                    <imageReference key="image" image="icons8-ok-24" symbolScale="large"/>
+                                </state>
+                                <connections>
+                                    <action selector="checkTap2:" destination="bcB-8h-u5x" eventType="touchUpInside" id="CzF-dm-t84"/>
+                                    <action selector="didCheckTap:" destination="bcB-8h-u5x" eventType="touchUpInside" id="9if-jE-IAa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7rk-eh-N7p">
+                                <rect key="frame" x="57" y="467" width="27" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.8913510255" green="0.58326122219999998" blue="0.36272293929999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-ok-24" translatesAutoresizingMaskIntoConstraints="NO" id="y9U-5r-IFI">
-                                <rect key="frame" x="60" y="496" width="25" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal">
+                                    <imageReference key="image" image="icons8-ok-24" symbolScale="large"/>
+                                </state>
+                                <connections>
+                                    <action selector="didCheckTap:" destination="bcB-8h-u5x" eventType="touchUpInside" id="9ik-UM-don"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y8J-gH-yKY">
+                                <rect key="frame" x="57" y="496" width="27" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.8913510255" green="0.58326122219999998" blue="0.36272293929999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-ok-24" translatesAutoresizingMaskIntoConstraints="NO" id="SV1-Px-SaA">
-                                <rect key="frame" x="61" y="593" width="25" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal">
+                                    <imageReference key="image" image="icons8-ok-24" symbolScale="large"/>
+                                </state>
+                                <connections>
+                                    <action selector="didCheckTap:" destination="bcB-8h-u5x" eventType="touchUpInside" id="N63-23-uaw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OjP-KA-6FP">
+                                <rect key="frame" x="57" y="596" width="27" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.8913510255" green="0.58326122219999998" blue="0.36272293929999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-ok-24" translatesAutoresizingMaskIntoConstraints="NO" id="LSB-T2-1me">
-                                <rect key="frame" x="61" y="623" width="25" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal">
+                                    <imageReference key="image" image="icons8-ok-24" symbolScale="large"/>
+                                </state>
+                                <connections>
+                                    <action selector="didCheckTap:" destination="bcB-8h-u5x" eventType="touchUpInside" id="xWM-xm-bVM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0nP-6v-HBr">
+                                <rect key="frame" x="57" y="624" width="27" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.8913510255" green="0.58326122219999998" blue="0.36272293929999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </imageView>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal">
+                                    <imageReference key="image" image="icons8-ok-24" symbolScale="large"/>
+                                </state>
+                                <connections>
+                                    <action selector="didCheckTap:" destination="bcB-8h-u5x" eventType="touchUpInside" id="xgu-iB-cr6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5xD-My-6CA">
+                                <rect key="frame" x="57" y="686" width="27" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal">
+                                    <imageReference key="image" image="icons8-ok-24" symbolScale="large"/>
+                                </state>
+                                <connections>
+                                    <action selector="didCheckTap:" destination="bcB-8h-u5x" eventType="touchUpInside" id="SFQ-1G-eUo"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ghR-NN-4WB"/>
                         <color key="backgroundColor" red="0.99607843139999996" green="0.96470588239999999" blue="0.86274509799999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Activities" image="tray" catalog="system" id="Lwp-wq-fyE"/>
                     <connections>
-                        <outlet property="check1" destination="2XD-Dk-74w" id="xDE-gt-PuQ"/>
+                        <outlet property="check1" destination="Enp-Cp-VcE" id="531-iK-Ilr"/>
+                        <outlet property="check2" destination="f3O-IQ-IiT" id="91h-mq-1DI"/>
+                        <outlet property="check3" destination="7rk-eh-N7p" id="aPB-FM-eim"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C3m-uL-D8g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -613,7 +664,7 @@
         <scene sceneID="Ee4-VT-22X">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nHC-at-iXh" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" image="pencil.and.outline" catalog="system" id="J3t-Ah-g5V"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="homekit" catalog="system" id="J3t-Ah-g5V"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="4Gq-qA-9fN"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="6vk-r7-g7Y">
@@ -657,8 +708,8 @@
         <image name="circle.fill" catalog="system" width="128" height="121"/>
         <image name="heart" catalog="system" width="128" height="109"/>
         <image name="heart.circle" catalog="system" width="128" height="121"/>
+        <image name="homekit" catalog="system" width="128" height="106"/>
         <image name="icons8-ok-24" width="24" height="24"/>
-        <image name="pencil.and.outline" catalog="system" width="128" height="128"/>
         <image name="plus.circle" catalog="system" width="128" height="121"/>
         <image name="tray" catalog="system" width="128" height="88"/>
         <systemColor name="labelColor">

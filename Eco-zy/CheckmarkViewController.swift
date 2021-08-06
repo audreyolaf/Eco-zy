@@ -9,35 +9,34 @@ import UIKit
 
 class CheckmarkViewController: UIViewController {
     
-    @IBOutlet weak var check1: UIImageView!
-    
+
+    @IBOutlet weak var check1: UIButton!
+    @IBOutlet weak var check2: UIButton!
+    @IBOutlet weak var check3: UIButton!
+    var isChecked1: Bool = false
+    var isChecked2: Bool = false
     override func viewDidLoad() {
         super.viewDidLoad()
-        check1.setImage(UIImage(named:"icons8-ok-24"), for: .normal)
-        check1.setImage(UIImage(named:"icons8-ok-30"), for: .selected)
-
-        // Do any additional setup after loading the view.
+        
     }
-    @IBAction func check1(_ sender: UIImageView) {
-            UIView.animate(withDuration: 0.5, delay: 0.1, options: .curveLinear, animations: {
-                sender.transform = CGAffineTransform(scaleX: 0.1, y: 0.1)
-                
-            }) { (success) in
-                UIView.animate(withDuration: 0.5, delay: 0.1, options: .curveLinear, animations: {
-                    sender.isClicked = !sender.isClicked
-                    sender.transform = .identity
-                }, completion: nil)
-            }
+
+    @IBAction func didCheckTap(_ sender: Any) {
+        isChecked1 = true
+        if isChecked1 {
+            check1.setImage(UIImage(named: "icons8-ok-30"), for: .normal)
+        } else {
+            isChecked1 = false
         }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
     }
-    */
 
+    @IBAction func checkTap2(_ sender: Any) {
+        isChecked2 = true
+        if isChecked2 {
+            check2.setImage(UIImage(named: "icons8-ok-30"), for: .normal)
+        } else {
+            isChecked2 = false
+        }
+    }
+    
+    
 }
