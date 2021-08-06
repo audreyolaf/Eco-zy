@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A528956226BCF620005912C7 /* CheckmarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A528956126BCF620005912C7 /* CheckmarkViewController.swift */; };
 		BD52F4C026BC5172005FE915 /* MentalHealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD52F4BF26BC5172005FE915 /* MentalHealthViewController.swift */; };
 		BD52F4C226BC98C3005FE915 /* ArticlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD52F4C126BC98C3005FE915 /* ArticlesViewController.swift */; };
 		BDE7E6BA26B9EF09006D175E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE7E6B926B9EF09006D175E /* AppDelegate.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A528956126BCF620005912C7 /* CheckmarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckmarkViewController.swift; sourceTree = "<group>"; };
 		BD52F4BF26BC5172005FE915 /* MentalHealthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalHealthViewController.swift; sourceTree = "<group>"; };
 		BD52F4C126BC98C3005FE915 /* ArticlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewController.swift; sourceTree = "<group>"; };
 		BDE7E6B626B9EF09006D175E /* Eco-zy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eco-zy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +112,7 @@
 				BDE7E6BB26B9EF09006D175E /* SceneDelegate.swift */,
 				BDE7E6BD26B9EF09006D175E /* ViewController.swift */,
 				BDE7E6BF26B9EF09006D175E /* Main.storyboard */,
+				A528956126BCF620005912C7 /* CheckmarkViewController.swift */,
 				BD52F4C126BC98C3005FE915 /* ArticlesViewController.swift */,
 				BDE7E6C526B9EF0A006D175E /* Assets.xcassets */,
 				BDE7E6C726B9EF0A006D175E /* LaunchScreen.storyboard */,
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A528956226BCF620005912C7 /* CheckmarkViewController.swift in Sources */,
 				BDE7E6C426B9EF09006D175E /* Eco_zy.xcdatamodeld in Sources */,
 				BDE7E6BE26B9EF09006D175E /* ViewController.swift in Sources */,
 				BD52F4C026BC5172005FE915 /* MentalHealthViewController.swift in Sources */,
