@@ -374,6 +374,8 @@
                                     <imageReference key="image" image="icons8-ok-24" symbolScale="large"/>
                                 </state>
                                 <connections>
+                                    <action selector="checkTap2:" destination="bcB-8h-u5x" eventType="touchUpInside" id="9Gd-dY-YQ4"/>
+                                    <action selector="checkTap3:" destination="bcB-8h-u5x" eventType="touchUpInside" id="gAK-LE-fAa"/>
                                     <action selector="didCheckTap:" destination="bcB-8h-u5x" eventType="touchUpInside" id="9ik-UM-don"/>
                                 </connections>
                             </button>
@@ -385,6 +387,7 @@
                                     <imageReference key="image" image="icons8-ok-24" symbolScale="large"/>
                                 </state>
                                 <connections>
+                                    <action selector="checkTap4:" destination="bcB-8h-u5x" eventType="touchUpInside" id="4dM-GD-AIK"/>
                                     <action selector="didCheckTap:" destination="bcB-8h-u5x" eventType="touchUpInside" id="N63-23-uaw"/>
                                 </connections>
                             </button>
@@ -396,6 +399,7 @@
                                     <imageReference key="image" image="icons8-ok-24" symbolScale="large"/>
                                 </state>
                                 <connections>
+                                    <action selector="checkTap5:" destination="bcB-8h-u5x" eventType="touchUpInside" id="vgm-GG-aXd"/>
                                     <action selector="didCheckTap:" destination="bcB-8h-u5x" eventType="touchUpInside" id="xWM-xm-bVM"/>
                                 </connections>
                             </button>
@@ -407,18 +411,9 @@
                                     <imageReference key="image" image="icons8-ok-24" symbolScale="large"/>
                                 </state>
                                 <connections>
+                                    <action selector="checkTap5:" destination="bcB-8h-u5x" eventType="touchUpInside" id="0FS-BX-zbf"/>
+                                    <action selector="checkTap6:" destination="bcB-8h-u5x" eventType="touchUpInside" id="ZiF-Tm-SoO"/>
                                     <action selector="didCheckTap:" destination="bcB-8h-u5x" eventType="touchUpInside" id="xgu-iB-cr6"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5xD-My-6CA">
-                                <rect key="frame" x="57" y="686" width="27" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal">
-                                    <imageReference key="image" image="icons8-ok-24" symbolScale="large"/>
-                                </state>
-                                <connections>
-                                    <action selector="didCheckTap:" destination="bcB-8h-u5x" eventType="touchUpInside" id="SFQ-1G-eUo"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -430,6 +425,9 @@
                         <outlet property="check1" destination="Enp-Cp-VcE" id="531-iK-Ilr"/>
                         <outlet property="check2" destination="f3O-IQ-IiT" id="91h-mq-1DI"/>
                         <outlet property="check3" destination="7rk-eh-N7p" id="aPB-FM-eim"/>
+                        <outlet property="check4" destination="y8J-gH-yKY" id="Ala-Jf-h60"/>
+                        <outlet property="check5" destination="OjP-KA-6FP" id="BUU-VD-cfU"/>
+                        <outlet property="check6" destination="0nP-6v-HBr" id="2Jt-dC-XLY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C3m-uL-D8g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
